@@ -4,6 +4,7 @@
 - Namn
 - Är
 - Jesper
- - [] Klicka
- - [] Inte
- - [] Här
+ - [ ] Constructor som ärver UnitLength
+ - [ ] Metod ToKilometer
+ - [ ] Metod ToDecimeter
+ - [ ] Metod ToCentimeter
