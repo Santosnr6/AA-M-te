@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+    <script src="https://kit.fontawesome.com/f300007e95.js" crossorigin="anonymous"></script>
     <title>AA-Möte</title>
 </head>
 <body>
@@ -11,19 +12,83 @@
     <!-- Header -->
     <header class="header">
         <h1 class="header__hello">Hej!</h1>
-        <h1>Mitt namn är {} och jag är...</h1>
+        <h1>Mitt namn är Jesper och jag är...</h1>
         <h1 class="header__title">...IT-Utvecklare</h1>
     </header>
 
-    <!-- Unimportant info -->
-    <section class="unimportant-info">
-        <h2>Här kommer lite oviktig fakta om mig</h2>
-        <p>Namn: Jesper Nyberg</p>
-        <p>Ålder: 32</p>
-        <p>Bor: Grums</p>
-        <p>Barn: 2 st</p>
+    <!-- Unimportant Info Section -->
+    <section class="unimportant">
+        <section class="unimportant__card">
+            <section class="unimportant__card-inner">
+                <article class="unimportant__card-face unimportant__front">
+                <h2>Hovra mig!!</h2>
+                </article>
+                <article class="unimportant__card-face unimportant__back">
+                    <article class="unimportant__sub-article">
+                        <h2>Här kommer lite oviktig fakta om mig</h2>
+                        <p>Namn: Jesper Nyberg</p>
+                        <p>Ålder: 32</p>
+                        <p>Bor: Grums</p>
+                        <p>Barn: 2 st</p>
+                        <ul>
+                            <li><a href="https://www.facebook.com/jespernyberg" target="_blank"><i class="fa-brands fa-bounce fa-facebook" style="color: #001B79;"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/jesper-nyberg-874387263/" target="_blank"><i class="fa-brands fa-bounce fa-linkedin" style="color: #001B79;"></i></a></li>
+                            <li><a href="https://www.instagram.com/santosnr6/" target="_blank"><i class="fa-brands fa-bounce fa-square-instagram" style="color: #001B79;"></i></a></li>
+                            <li><a href="https://twitter.com/santnr6" target="_blank"><i class="fa-brands fa-bounce fa-twitter" style="color: #001B79;"></i></a></li>
+                        </ul>
+                    </article>
+                    <article class="unimportant__sub-article--span-one">
+                        <h3>Utbildning</h3>
+                        <ul>
+                            <li>International Baccalaureate</li>
+                            <li>Webbutvecklare</li>
+                            <li>Cloud Developer</li>
+                        </ul>
+                    </article>
+                    <article class="unimportant__sub-article--span-one">
+                        <h3>Arbetslivserfarenhet</h3>
+                        <ul>
+                            <li>Försäljare, Viasat</li>
+                            <li>Skiftledare, Burger King</li>
+                            <li>Kökschef, Pizza Hut</li>
+                            <li>Kundtjänst, Menigo</li>
+                            <li>Förrådstekniker, Billerud</li>
+                        </ul>
+                    </article>
+                </article>
+            </section>
+        </section>
     </section>
 
-    
+    <!-- Very Important Info Section -->
+    <section class="important">
+    <h2>Här kommer den livsviktiga faktan om mig</h2>
+        <section class="luck-container">
+            <!-- HTML För en lucka i kalendern -->
+            <article class="lucka">
+                <article class="closed">
+                    <h3>Favoritlag i fotboll</h3>
+                </article>
+                <article class="open">
+                    Arsenal
+                </article>
+            </article>
+            <!-- HTML För en lucka i kalendern -->
+            <article class="lucka">
+                <article class="closed">
+                    <h3>Favoritmat</h3>
+                </article>
+                <article class="open">
+                    <ul>
+                        <li>Lasagne</li>
+                        <li>Soppa</li>
+                        <li>Pizza</li>
+                        <li>Asiatiskt</li>
+                        <li>Korv med bröd</li>
+                    </ul>
+                </article>
+            </article>
+        </section>
+    </section>
 </body>
 </html>
