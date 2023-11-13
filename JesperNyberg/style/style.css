@@ -124,7 +124,6 @@ body {
 
 /* Very Important Info Section */
 .important {
-    height: 100vh;
     background-color: var(--primary-pink);
     padding: 2rem;
     color: var(--primary-blue);
