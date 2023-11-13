@@ -1,10 +1,3 @@
-:root {
-    --primary-blue: #001B79;
-    --secondary-blue: #1640D6;
-    --primary-pink: #ED5AB3;
-    --secondary-pink: #FF90C2;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -133,7 +126,7 @@ body {
     text-align: center;
 }
 
-.luck-container {
+.important__luck-container {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -141,7 +134,7 @@ body {
     gap: 2rem;
 }
 
-.lucka {
+.important__lucka {
     grid-column: auto / span 1;
     position: relative;
     height: 300px;
@@ -149,12 +142,12 @@ body {
     background-color: var(--primary-blue);
     color: var(--primary-pink);
 }
-.lucka li {
+.important__lucka ul li {
     list-style-type: none;
     text-align: center;
 }
 
-.closed, .open {
+.important__closed, .important__open {
     position: absolute;
     top: 0;
     left: 0;
@@ -168,16 +161,16 @@ body {
     transition: transform 0.3s ease-in-out;
 }
 
-.open {
+.important__open {
     transform: translateX(100%);
     background-color: var(--secondary-pink);
     color: var(--secondary-blue);
 }
 
-.lucka:hover .closed {
+.important__lucka:hover .important__closed {
     transform: translateX(-100%);
 }
 
-.lucka:hover .open {
+.important__lucka:hover .important__open {
     transform: translateX(0);
 }
